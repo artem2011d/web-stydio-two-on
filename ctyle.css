@@ -1,0 +1,260 @@
+.logo{font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:#2196F3;
+    }
+    .nav-list-link{
+        font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color:  #212121;
+
+    }
+    .contacts-list-link{
+        font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #757575;
+;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        padding:0 ;
+        margin: 0;
+    }
+    p, h1, h2,h3,h4,h5{
+        margin: 0;
+    }
+    address{
+        font-style: normal;
+        margin-top: 20px;
+    }
+    .header-logo{
+        color: #000000;
+    }
+    .contacts-list-link:hover,.nav-list-link:hover{
+        color: #2196F3;
+    }
+    .hero-title{
+        font-family: Roboto;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF;
+        width: 696px;
+        margin: 0 auto;
+    }
+  .hero-btn{
+    width: 216px;
+height: 50px;
+border-radius: 4px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+border: none;
+display: block;
+margin: 0 auto;
+margin-top: 30px ;
+color: #FFFFFF;
+background: #2196F3;
+  }
+  .section-hero{
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+  }
+.features-list-title{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #212121;
+
+}
+.features-list-text{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:  #757575;
+margin-top: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.contacts-list, .nav-list{
+    display: flex;
+    gap: 50px;
+
+}
+.nav-list, .contacts-list{
+    display:flex;
+
+}
+.features-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.team-list{
+    display:flex ;
+    justify-content: center;
+    gap: 30px;
+
+}
+.team-title{
+    margin-bottom: 50px ;
+    font-family: Roboto;
+font-size: 42px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+padding-top: 94px;
+display: flex;
+justify-content: center;
+}
+.team-list-conten-wrap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team-list-title, .team-list-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+                       }
+.team-list-text{font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+.team-list-item{
+    background-color: #FFFFFF;
+}
+.box{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.address-list{
+    margin-bottom: 9px;
+}
+.work-title{
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.features-list-text{}
+.nav-list-item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+body{
+    margin: 0;
+}
+.team-list-title{
+    margin-bottom: 30px;
+}
+.address-list-link{
+    font-family: Robotto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+
+
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:  #2F303A;
+    
+}
+.footer-logo{
+    color: #FFFFFF;
+}
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 34px;
+    
+}
+.portfolio-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.filters-list-btn{
+    border: none;
+    padding: 6px 22px;
+    transition: 2s;
+}
+.filters-list-btn:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.work-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.team-list-img{
+    width: 270px;
+}
+.section-work{
+    padding-bottom: 94px;
+
+}
+.section-team{
+    background: #F5F4FA;
+    padding-bottom: 94px;
+}
